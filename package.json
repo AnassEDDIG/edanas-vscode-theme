@@ -2,7 +2,7 @@
   "name": "edanas-theme",
   "displayName": "EDanas Theme",
   "description": "A custom VS Code theme using some of my favorite colors.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.60.0"
   },

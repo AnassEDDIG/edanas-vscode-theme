@@ -6,8 +6,11 @@
 
 ## Preview
 
-![Edanas Theme Preview](images/screenshoot.png)  
-_(Screenshot shows Edanas dark theme with subtle warm accents and minimal design.)_
+| HTML/CSS preview 1 | JS preview 2 |
+|--------------|--------------|
+| ![Screenshot 1](images/html.png) | ![Screenshot 2](images/javascript.png) |
+
+_(Screenshots shows Edanas dark theme with subtle warm accents and minimal design.)_
 
 ---
 
@@ -36,7 +39,7 @@ You can Download Edanas theme in 2 ways:
 
 ### **2️⃣ Using VSIX Package**
 
-1.  Download the `edanas-theme-0.0.1.vsix` file from the repository.
+1.  Download the `edanas-theme-*.*.*.vsix` file from the repository.
 2.  Open VS Code.
 3.  Open the **Command Palette** by pressing `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac).
 4.  Type `Extensions: Install from VSIX...` and select it from the dropdown.
