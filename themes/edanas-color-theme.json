@@ -122,6 +122,13 @@
                 "foreground": "#84e9bd",
                 "fontStyle": ""
             }
+        },
+        {
+            "scope": ["text.html.basic"],
+            "settings": {
+                "foreground": "#ffffff",
+                "fontStyle": ""
+            }
         }
     ],
     "semanticHighlighting": true
