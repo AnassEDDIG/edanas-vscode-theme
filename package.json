@@ -2,18 +2,25 @@
   "name": "edanas",
   "displayName": "EDanas",
   "description": "A dark, elegant theme with teal, amber, and oceanic tones designed for clarity and calm coding.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "publisher": "anasseddig",
   "engines": {
     "vscode": "^1.50.0"
   },
-  "categories": ["Themes"],
+  "categories": [
+    "Themes"
+  ],
   "contributes": {
     "themes": [
       {
         "label": "EDanas",
         "uiTheme": "vs-dark",
         "path": "./themes/edanas-color-theme.json"
+      },
+      {
+        "label": "EDanas - Nebular Dream",
+        "uiTheme": "vs-dark",
+        "path": "./themes/edanas-etheral-void-theme.json"
       }
     ]
   },
@@ -26,5 +33,11 @@
     "name": "Anass Eddig"
   },
   "license": "MIT",
-  "keywords": ["theme", "dark", "minimal", "calm", "edanas"]
+  "keywords": [
+    "theme",
+    "dark",
+    "minimal",
+    "calm",
+    "edanas"
+  ]
 }

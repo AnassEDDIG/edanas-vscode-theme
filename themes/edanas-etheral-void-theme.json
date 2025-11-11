@@ -1,0 +1,428 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "EDanas – Nebular Dream (High Contrast)",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "colors": {
+    // --- Core Editor Colors (Nebular Dream) ---
+    "editor.background": "#160C24",
+    "editor.foreground": "#F5F0E1",
+    "editor.selectionBackground": "#3A2B5B",
+    "editor.lineHighlightBackground": "#221838",
+    "editorCursor.foreground": "#FFFFFF",
+    "editorIndentGuide.background": "#4B3D6E",
+    "editorIndentGuide.activeBackground": "#6C539C",
+    "editorLineNumber.foreground": "#60508B",
+    "editorLineNumber.activeForeground": "#F5F0E1",
+    "activityBar.background": "#12091D",
+    "sideBar.background": "#1A102C",
+    "sideBar.foreground": "#F5F0E1",
+    "statusBar.background": "#1E1430",
+    "statusBar.foreground": "#F5F0E1",
+    "tab.inactiveBackground": "#160C24",
+    "titleBar.activeBackground": "#1E1430",
+    "titleBar.activeForeground": "#F5F0E1",
+    "button.background": "#A585FF",
+    "button.foreground": "#000000",
+    "badge.background": "#D0A0FF",
+    "badge.foreground": "#000000",
+    "scrollbarSlider.background": "#4B3D6E",
+    "editorError.foreground": "#FF70A6",
+    "editorWarning.foreground": "#FFD780",
+    "editorGutter.modifiedBackground": "#A585FF",
+    "editorGutter.addedBackground": "#A585FF",
+    "editorGutter.deletedBackground": "#FF70A6",
+    "editorGroupHeader.tabsBackground": "#1A102C",
+    "editorGroupHeader.tabsBorder": "#1A102C",
+    "tab.activeForeground": "#D0A0FF",
+    "tab.inactiveForeground": "#9080B0",
+    "tab.activeBorderTop": "#D0A0FF",
+    "tab.activeBackground": "#1E1430",
+    "tab.hoverBackground": "#2A1D42",
+    "menu.background": "#1A102C",
+    "menu.foreground": "#F5F0E1",
+    "menu.selectionBackground": "#3A2B5B",
+    "menu.selectionForeground": "#D0A0FF",
+    "menu.separatorBackground": "#6C539C",
+    "extensionButton.prominentBackground": "#A585FF",
+    "extensionButton.prominentForeground": "#000000",
+    "extensionButton.prominentHoverBackground": "#D0A0FF",
+    "extensionButton.background": "#1E1430",
+    "extensionButton.foreground": "#F5F0E1",
+    "extensionButton.hoverBackground": "#3A2B5B",
+    "input.background": "#160C24",
+    "input.foreground": "#F5F0E1",
+    "input.border": "#6C539C",
+    "input.placeholderForeground": "#9080B0",
+    "inputOption.activeBackground": "#3A2B5B",
+    "list.hoverBackground": "#3A2B5B",
+    "list.hoverForeground": "#D0A0FF",
+    "list.activeSelectionBackground": "#1E1430",
+    "list.activeSelectionForeground": "#D0A0FF",
+    "list.inactiveSelectionBackground": "#2A1D42",
+    "list.inactiveSelectionForeground": "#C5BBEA"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#8F85AF",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier",
+        "keyword.control"
+      ],
+      "settings": {
+        "foreground": "#FFD780" // Soft Yellow
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "constant.character.escape"
+      ],
+      "settings": {
+        "foreground": "#FFD780" // Soft Yellow
+      }
+    },
+    {
+      "scope": ["string", "string.quoted", "string.template"],
+      "settings": {
+        "foreground": "#E6B0FF" // Pale Lavender
+      }
+    },
+    {
+      "scope": ["variable", "identifier", "variable.parameter"],
+      "settings": {
+        "foreground": "#F5F0E1" // Creamy White
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call"
+      ],
+      "settings": {
+        "foreground": "#D0A0FF" // Lighter Purple Accent
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.class",
+        "support.class",
+        "entity.other.inherited-class"
+      ],
+      "settings": {
+        "foreground": "#A585FF" // Soft Purple
+      }
+    },
+    {
+      "scope": [
+        "variable.property",
+        "variable.other.property",
+        "support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#FFD780" // Soft Yellow
+      }
+    },
+    {
+      "scope": ["entity.name.tag", "meta.tag", "punctuation.definition.tag"],
+      "settings": {
+        "foreground": "#FFD780" // Soft Yellow
+      }
+    },
+    {
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#E6B0FF" // Pale Lavender
+      }
+    },
+    {
+      "scope": ["invalid"],
+      "settings": {
+        "foreground": "#FF70A6", // Soft Pink-Red
+        "fontStyle": "underline"
+      }
+    },
+
+    /* ---------- HTML / JSX ---------- */
+    {
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.begin.js.jsx",
+        "punctuation.definition.tag.end.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#E0E0E0" // Near White
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag.html",
+        "entity.name.tag.js.jsx",
+        "meta.tag.jsx",
+        "meta.tag.html"
+      ],
+      "settings": {
+        "foreground": "#FFD780" // Soft Yellow
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.js",
+        "entity.other.attribute-name.jsx"
+      ],
+      "settings": {
+        "foreground": "#D0A0FF", // Lighter Purple Accent
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["entity.other.attribute-name.js.jsx"],
+      "settings": {
+        "foreground": "#D0A0FF", // Lighter Purple Accent
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.string",
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end"
+      ],
+      "settings": {
+        "foreground": "#E0E0E0" // Near White
+      }
+    },
+    {
+      "scope": ["string.quoted.double.js.jsx", "string.quoted.single.js.jsx"],
+      "settings": {
+        "foreground": "#E6B0FF" // Pale Lavender
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.jsx.children.js.jsx",
+        "text.html.jsx",
+        "text.html.basic"
+      ],
+      "settings": {
+        "foreground": "#E0E0E0" // Near White
+      }
+    },
+    {
+      "scope": [
+        "punctuation.section.embedded.begin.jsx",
+        "punctuation.section.embedded.end.jsx"
+      ],
+      "settings": {
+        "foreground": "#FFD780", // Soft Yellow
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["meta.embedded.expression.js.jsx", "source.js.embedded.html"],
+      "settings": {
+        "foreground": "#A585FF" // Soft Purple
+      }
+    },
+
+    /* ---------- CSS / SCSS ---------- */
+    {
+      "scope": [
+        "support.type.property-name.css",
+        "support.type.property-name.scss",
+        "support.type.property-name.less"
+      ],
+      "settings": {
+        "foreground": "#A585FF" // Soft Purple
+      }
+    },
+    {
+      "scope": ["support.constant.property-value.css"],
+      "settings": {
+        "foreground": "#FFD780" // Soft Yellow
+      }
+    },
+    {
+      "scope": ["entity.name.tag.css"],
+      "settings": {
+        "foreground": "#D0A0FF" // Lighter Purple Accent
+      }
+    },
+    {
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#FFD780" // Soft Yellow
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.attribute-name.pseudo-class.scss",
+        "entity.other.attribute-name.pseudo-class.less",
+        "entity.other.attribute-name.pseudo-element.css",
+        "entity.other.attribute-name.pseudo-element.scss",
+        "entity.other.attribute-name.pseudo-element.less"
+      ],
+      "settings": {
+        "foreground": "#E0E0E0" // Near White
+      }
+    },
+    {
+      "scope": [
+        "keyword.other.unit.px.css",
+        "keyword.other.unit.vh.css",
+        "keyword.other.unit.vw.css",
+        "keyword.other.unit.em.css",
+        "keyword.other.unit.rem.css",
+        "keyword.other.unit.percent.css",
+        "keyword.other.unit.ch.css",
+        "keyword.other.unit.ex.css",
+        "keyword.other.unit.vmin.css",
+        "keyword.other.unit.vmax.css",
+        "keyword.other.unit.s.css",
+        "keyword.other.unit.ms.css"
+      ],
+      "settings": {
+        "foreground": "#E0E0E0" // Near White
+      }
+    },
+    /* ---------- JSON / YAML ---------- */
+    {
+      "scope": ["support.type.property-name.json"],
+      "settings": {
+        "foreground": "#FFD780" // Soft Yellow
+      }
+    },
+    {
+      "scope": ["string.quoted.double.json", "string.quoted.single.json"],
+      "settings": {
+        "foreground": "#E6B0FF" // Pale Lavender
+      }
+    },
+    {
+      "scope": ["constant.language.json", "constant.numeric.json"],
+      "settings": {
+        "foreground": "#FFD780" // Soft Yellow
+      }
+    },
+    {
+      "scope": [
+        "string.unquoted.plain.out.yaml",
+        "entity.name.tag.yaml",
+        "variable.other.key.yaml"
+      ],
+      "settings": {
+        "foreground": "#A585FF" // Soft Purple
+      }
+    },
+
+    /* ---------- Markdown ---------- */
+    {
+      "scope": ["markup.heading", "markup.heading.setext"],
+      "settings": {
+        "foreground": "#D0A0FF", // Lighter Purple Accent
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["markup.bold"],
+      "settings": {
+        "foreground": "#A585FF", // Soft Purple
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["markup.italic"],
+      "settings": {
+        "foreground": "#A585FF", // Soft Purple
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["markup.inline.raw"],
+      "settings": {
+        "foreground": "#FFD780" // Soft Yellow
+      }
+    },
+    {
+      "scope": ["markup.link", "markup.underline.link"],
+      "settings": {
+        "foreground": "#D0A0FF", // Lighter Purple Accent
+        "fontStyle": "underline"
+      }
+    },
+
+    /* ---------- TypeScript ---------- */
+    {
+      "scope": [
+        "variable.other.readwrite.ts",
+        "variable.other.constant.ts",
+        "support.type.primitive.ts"
+      ],
+      "settings": {
+        "foreground": "#A585FF" // Soft Purple
+      }
+    },
+    {
+      "scope": ["keyword.operator.type.ts", "meta.type.annotation.ts"],
+      "settings": {
+        "foreground": "#FFD780" // Soft Yellow
+      }
+    },
+
+    /* ---------- Python ---------- */
+    {
+      "scope": [
+        "keyword.control.flow.python",
+        "storage.type.function.python",
+        "variable.parameter.function.python"
+      ],
+      "settings": {
+        "foreground": "#A585FF" // Soft Purple
+      }
+    },
+    {
+      "scope": ["string.quoted.single.python", "string.quoted.double.python"],
+      "settings": {
+        "foreground": "#E6B0FF" // Pale Lavender
+      }
+    },
+    {
+      "scope": ["constant.numeric.python"],
+      "settings": {
+        "foreground": "#FFD780" // Soft Yellow
+      }
+    },
+
+    /* ---------- Misc ---------- */
+    {
+      "scope": [
+        "meta.brace",
+        "punctuation.definition.parameters",
+        "punctuation.section",
+        "punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "#E0E0E0" // Near White
+      }
+    },
+    {
+      "scope": ["support.constant", "constant.other"],
+      "settings": {
+        "foreground": "#FFD780" // Soft Yellow
+      }
+    }
+  ]
+}
